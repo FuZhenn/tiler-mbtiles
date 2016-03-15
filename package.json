@@ -1,0 +1,15 @@
+{
+  "name": "tiler-mbtiles",
+  "version": "0.1.0",
+  "description": "A map tile reader for mapbox mbtiles",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FuZhenn/tiler-mbtiles"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "mbtiles": "^0.8.2"
+  },
+  "readmeFilename": "README.md"
+}

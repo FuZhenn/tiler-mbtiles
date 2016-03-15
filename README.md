@@ -1,2 +1,2 @@
 # tiler-mbtiles
-A map tile reader from mapbox mbtiles
+A map tile reader for mapbox mbtiles
