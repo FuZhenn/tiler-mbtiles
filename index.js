@@ -6,14 +6,16 @@ var MBTiles = require('mbtiles');
  * @param {String} path - the path of the mbtiles file
  * @class
  */
-function tiler(path) {
+function tiler(path, callback) {
     this.ready = false;
     var me = this;
     this._mbtiles = new MBTiles(path, function(error) {
         if (error) {
-            throw error;
+            callback(error);
+            return;
         }
         me.ready = true;          
+        callback(null);
     });
 }
 
@@ -25,8 +27,8 @@ function tiler(path) {
  *  data         : {Buffer}
  * }
  * @param {Number} x - tile x coordinate.
- * @param {Number} x - tile x coordinate.
- * @param {Number} x - tile x coordinate.
+ * @param {Number} y - tile y coordinate.
+ * @param {Number} z - tile z coordinate.
  * @param {Function(error, tile)} callback - tile x coordinate.
  * @return  {Object} tile data.
  */
@@ -41,7 +43,7 @@ tiler.prototype.getTile=function(x,y,z, callback) {
             return;            
         } 
         callback(null, {
-          'lastModified' :  header['Last-Modified'],
+          'lastModified' :  headers['Last-Modified'],
           'data'         :  tile
         });
     });
