@@ -11,6 +11,8 @@ This is a map tile file reader for mapbox's mbtiles in XYZ schema.
 
 Developed based on mapbox's [node-mbtiles](https://github.com/mapbox/node-mbtiles)
 
+The test is based on the [test materials](https://github.com/mapbox/node-mbtiles/tree/master/test/fixtures) from node-mbtiles.
+
 ## Install
 
 ```bash
