@@ -14,13 +14,13 @@ Developed based on mapbox's [node-mbtiles](https://github.com/mapbox/node-mbtile
 The test is based on the [test materials](https://github.com/mapbox/node-mbtiles/tree/master/test/fixtures) from node-mbtiles.
 
 ## See also
-[tiler-xyz](https://github.com/FuZhenn/tiler-xyz)
+[tiler-xyz](https://github.com/FuZhenn/tiler-xyz):
 A nodejs map tile file reader coordinating by X,Y,Z
 
-[tiler-arcgis-xyz](https://github.com/FuZhenn/tiler-arcgis-xyz)
+[tiler-arcgis-xyz](https://github.com/FuZhenn/tiler-arcgis-xyz):
 A nodejs map tile reader for exploded tiles by ESRI ArcGIS
 
-[tiler-arcgis-compact](https://github.com/FuZhenn/tiler-arcgis-compact)
+[tiler-arcgis-compact](https://github.com/FuZhenn/tiler-arcgis-compact):
 A nodejs map tile reader for compact tiles by ESRI ArcGIS
 
 ## Install
