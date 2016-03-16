@@ -13,7 +13,7 @@ Developed based on mapbox's [node-mbtiles](https://github.com/mapbox/node-mbtile
 
 The test is based on the [test materials](https://github.com/mapbox/node-mbtiles/tree/master/test/fixtures) from node-mbtiles.
 
-## See also
+## See Also
 [tiler-xyz](https://github.com/FuZhenn/tiler-xyz):
 A nodejs map tile file reader coordinating by X,Y,Z
 
