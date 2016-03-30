@@ -1,6 +1,6 @@
 {
   "name": "tiler-mbtiles",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A map tile reader for mapbox mbtiles",
   "license": "MIT",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test" : "node test/test.js"  
+    "test" : "node test/test.js"
   },
   "dependencies": {
     "mbtiles": "^0.8.2"
